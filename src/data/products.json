@@ -1,0 +1,48 @@
+{
+    "products": [
+        {
+            "image": {
+                "src": "Plastic-Bottle-Lemon-Myrtle-Mockup-compressor.png",
+                "alt": "Lemon Myrtle Dishwash Concentrate product image",
+                "color": "#fdae30"
+            },
+            "name": "Lemon Myrtle",
+            "category": "Dishwash Liquid",
+            "description": "A concentrated readily biodegradable plant based cleaner. Powers through grease yet gentle on your hands & the environment. You only need a small squirt leaving dishes sparkling clean with a fresh Lemon Myrtle scent.",
+            "how_to_use": "Simply aim cap directly at sponge, dishes or sinkbefore squeezing – close cap when not in use."
+        },
+        {
+            "image": {
+                "src": "Plastic-Bottle-Kakadu-Plum-Mockup-compressor.png",
+                "alt": "Kakadu Plum Dishwash Concentrate product image",
+                "color": "#288a3e"
+            },
+            "name": "Kakadu Plum",
+            "category": "Dishwash Liquid",
+            "description": "A concentrated readily biodegradable plant based cleaner. Powers through grease yet gentle on your hands & the environment. You only need a small squirt leaving dishes sparkling clean with a fresh Kakadu Plum scent.",
+            "how_to_use": "Simply aim cap directly at sponge, dishes or sinkbefore squeezing – close cap when not in use."
+        },
+        {
+            "image": {
+                "src": "Spray-Plastic-Bottle-Finger-Lime-Mock-up-compressor.png",
+                "alt": "Finger Lime All Purpose Cleaner product image",
+                "color": "#c62724"
+            },
+            "name": "Finger Lime",
+            "category": "All Purpose Cleaner",
+            "description": "An eco friendly cleaner designed to clean all washable hardsurfaces leaving behind a fresh Finger Lime scent.",
+            "how_to_use": "Simply spray onto surface to be cleaned then wipe away witha clean cloth. Spot test surface before using."
+        },
+        {
+            "image": {
+                "src": "Spray-Plastic-Bottle-Frangipani-Mock-up-compressor.png",
+                "alt": "Frangipani All Purpose Cleaner product image",
+                "color": "#f3431c"
+            },
+            "name": "Frangipani",
+            "category": "All Purpose Cleaner",
+            "description": "An eco friendly cleaner designed to clean all washable hardsurfaces leaving behind a fresh Frangipani scent.",
+            "how_to_use": "Simply spray onto surface to be cleaned then wipe away witha clean cloth. Spot test surface before using."
+        }
+    ]
+}
