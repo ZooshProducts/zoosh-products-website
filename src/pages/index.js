@@ -41,14 +41,14 @@ const HomePage = () => {
                 <Banner products={JSONData.products} />
             </div>
             <div id="products">
-                <h1>Products</h1>
                 <div
                     style={{
                         display: "flex",
-                        maxWidth: "1200px",
+                        maxWidth: "1400px",
                         margin: "0 auto",
                         flexWrap: "wrap",
                         justifyContent: "space-evenly",
+                        paddingTop: "4rem",
                     }}
                 >
                     {JSONData.products.map((data, index) => {

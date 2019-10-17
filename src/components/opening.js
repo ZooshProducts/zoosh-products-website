@@ -19,7 +19,7 @@ const Opening = () => {
                         flexDirection: "column",
                         justifyContent: "center",
                         alignItems: "center",
-                        padding: "10%",
+                        padding: "15%",
                     }}
                 >
                     <img src="images/Zoosh logo.png" alt="" />
@@ -31,7 +31,7 @@ const Opening = () => {
                         flexDirection: "column",
                         justifyContent: "center",
                         alignItems: "center",
-                        padding: "20%",
+                        padding: "25%",
                     }}
                 >
                     <div

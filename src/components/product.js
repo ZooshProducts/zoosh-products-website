@@ -15,6 +15,7 @@ const Product = ({ data }) => {
                 style={{
                     backgroundColor: data.image.color,
                     padding: "3rem",
+                    marginBottom: "3rem",
                 }}
             >
                 <div
@@ -32,12 +33,21 @@ const Product = ({ data }) => {
 
             <h2>{data.name}</h2>
             <h3>{data.category}</h3>
+
             <div>
-                <p>{data.description}</p>
+                {data.description.split("\\n").map(string => {
+                    return <p>{string}</p>
+                })}
             </div>
-            <div>
+            <div
+                style={{
+                    marginBottom: "4rem",
+                }}
+            >
                 <h4>HOW TO USE</h4>
-                <p>{data.how_to_use}</p>
+                {data.how_to_use.split("\\n").map(string => {
+                    return <p>{string}</p>
+                })}
             </div>
             <ProductIcons />
         </div>

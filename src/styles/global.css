@@ -1,8 +1,47 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Scope+One&display=swap");
+
+:root {
+    --text-color: #808080;
+}
+
+html {
+    font-size: 17px;
+}
 
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Scope One", serif;
+
     margin: 0;
+    color: var(--text-color);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+h2 {
+    font-size: 2.7rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 3rem;
 }
 
 img {
@@ -11,4 +50,18 @@ img {
 
 #banner svg {
     fill: white;
+}
+
+#productIcons svg {
+    fill: var(--text-color);
+    opacity: 65%;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 1rem;
 }

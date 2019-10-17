@@ -26,7 +26,7 @@ const Slide = ({ data, text }) => {
                 >
                     <div
                         style={{
-                            width: "25%",
+                            width: "30%",
                             marginBottom: "3rem",
                         }}
                     >
@@ -36,7 +36,7 @@ const Slide = ({ data, text }) => {
                         src="images/Zoosh logo.png"
                         alt=""
                         style={{
-                            width: "20%",
+                            width: "25%",
                         }}
                     />
                 </div>
