@@ -2,6 +2,7 @@ import React from "react"
 import Opening from "../components/opening"
 import Banner from "../components/banner"
 import Product from "../components/product"
+import Footer from "../components/footer"
 
 import "../styles/global.css"
 
@@ -55,6 +56,9 @@ const HomePage = () => {
                         return <Product key={`key_${index}`} data={data} />
                     })}
                 </div>
+            </div>
+            <div id="footer">
+                <Footer />
             </div>
         </div>
     )
