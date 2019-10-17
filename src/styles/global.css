@@ -2,8 +2,9 @@
 
 body {
     font-family: "Open Sans", sans-serif;
+    margin: 0;
 }
 
-.no-yes-logos {
-    /* max-height: 50px; */
+img {
+    max-width: 100%;
 }
