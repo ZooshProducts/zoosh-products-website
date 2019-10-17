@@ -18,7 +18,7 @@ const HomePage = () => {
                     style={{
                         textAlign: "center",
                         padding: "7rem 3rem 9rem 3rem",
-                        maxWidth: "1200px",
+                        maxWidth: "1000px",
                         margin: "0 auto",
                     }}
                 >

@@ -14,7 +14,7 @@ const Opening = () => {
             >
                 <div
                     style={{
-                        backgroundColor: "black",
+                        backgroundColor: "#1e78c2",
                         display: "flex",
                         flexDirection: "column",
                         justifyContent: "center",
@@ -26,7 +26,7 @@ const Opening = () => {
                 </div>
                 <div
                     style={{
-                        backgroundColor: "grey",
+                        backgroundColor: "#0f2e93",
                         display: "flex",
                         flexDirection: "column",
                         justifyContent: "center",

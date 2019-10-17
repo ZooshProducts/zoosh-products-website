@@ -4,13 +4,7 @@ import ProductIcons from "../components/product-icons"
 
 const Product = ({ data }) => {
     return (
-        <div
-            style={{
-                textAlign: "center",
-                width: "40%",
-                marginBottom: "4rem",
-            }}
-        >
+        <div className="product-wrap">
             <div
                 style={{
                     backgroundColor: data.image.color,
@@ -31,25 +25,27 @@ const Product = ({ data }) => {
                 ></div>
             </div>
 
-            <h2>{data.name}</h2>
-            <h3>{data.category}</h3>
+            <div className="product-text-wrap">
+                <h2>{data.name}</h2>
+                <h3>{data.category}</h3>
 
-            <div>
-                {data.description.split("\\n").map(string => {
-                    return <p>{string}</p>
-                })}
+                <div>
+                    {data.description.split("\\n").map(string => {
+                        return <p>{string}</p>
+                    })}
+                </div>
+                <div
+                    style={{
+                        marginBottom: "4rem",
+                    }}
+                >
+                    <h4>HOW TO USE</h4>
+                    {data.how_to_use.split("\\n").map(string => {
+                        return <p>{string}</p>
+                    })}
+                </div>
+                <ProductIcons />
             </div>
-            <div
-                style={{
-                    marginBottom: "4rem",
-                }}
-            >
-                <h4>HOW TO USE</h4>
-                {data.how_to_use.split("\\n").map(string => {
-                    return <p>{string}</p>
-                })}
-            </div>
-            <ProductIcons />
         </div>
     )
 }

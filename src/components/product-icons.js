@@ -8,17 +8,7 @@ import AustralianMade from "../components/svg/australian-made"
 
 export default () => {
     return (
-        <div
-            id="productIcons"
-            style={{
-                display: "grid",
-                gridTemplateColumns: "30% 13% 13% 14% 20.5%",
-                alignItems: "center",
-                justifyContent: "space-between",
-                maxWidth: "80%",
-                margin: "0 auto",
-            }}
-        >
+        <div id="productIcons" className="product-icons-wrap">
             <CatchPhrase />
             <NoAminalTesting />
             <RecyclableBottle />

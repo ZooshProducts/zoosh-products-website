@@ -6,7 +6,7 @@
 }
 
 html {
-    font-size: 17px;
+    font-size: 14px;
 }
 
 body {
@@ -48,7 +48,8 @@ img {
     max-width: 100%;
 }
 
-#banner svg {
+#banner svg,
+#opening svg {
     fill: white;
 }
 
@@ -64,4 +65,36 @@ p {
     font-weight: 300;
     margin: 0;
     margin-bottom: 1rem;
+}
+
+.product-wrap {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.product-text-wrap {
+    padding: 0 2rem;
+}
+
+.product-icons-wrap {
+    display: grid;
+    grid-template-columns: 30% 13% 13% 14% 20.5%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 700px) {
+    html {
+        font-size: 15px;
+    }
+    .product-wrap {
+        max-width: 40%;
+    }
+    .product-text-wrap {
+        padding: 0;
+    }
+    .product-icons-wrap {
+        max-width: 80%;
+    }
 }
