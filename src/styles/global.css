@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
 .no-yes-logos {
-    max-height: 50px;
+    /* max-height: 50px; */
 }
