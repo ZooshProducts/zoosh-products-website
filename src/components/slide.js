@@ -3,14 +3,7 @@ import React from "react"
 const Slide = ({ data, text }) => {
     return (
         <div>
-            <div
-                style={{
-                    height: "100vh",
-                    overflow: "hidden",
-                    display: "flex",
-                    position: "relative",
-                }}
-            >
+            <div className="slide-wrap">
                 <div
                     style={{
                         position: "absolute",
