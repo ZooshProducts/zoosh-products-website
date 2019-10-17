@@ -1,5 +1,6 @@
 import React from "react"
 import Opening from "../components/opening"
+import Banner from "../components/banner"
 import Product from "../components/product"
 
 import "../styles/global.css"
@@ -29,14 +30,18 @@ const HomePage = () => {
                     <p>
                         Zoosh is our contribution to a sustainable cleaner
                         future. We design our products with the planet in mind
-                        based on highly ecient renewable plant-based
+                        based on highly efficient renewable plant-based
                         ingredients, whilst constantly striving to source the
                         latest in eco-friendly packaging solutions for cleaner
                         future.
                     </p>
                 </div>
             </div>
+            <div id="banner">
+                <Banner products={JSONData.products} />
+            </div>
             <div id="products">
+                <h1>Products</h1>
                 <div
                     style={{
                         display: "flex",

@@ -34,7 +34,13 @@ const Opening = () => {
                         padding: "20%",
                     }}
                 >
-                    <ACleanerFuture />
+                    <div
+                        style={{
+                            marginBottom: "3rem",
+                        }}
+                    >
+                        <ACleanerFuture />
+                    </div>
                     <About />
                 </div>
             </div>
