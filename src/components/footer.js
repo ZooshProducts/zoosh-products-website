@@ -21,7 +21,7 @@ const Footer = () => {
                     />
                     <div
                         style={{
-                            maxWidth: "20rem",
+                            width: "15rem",
                         }}
                     >
                         <ACleanerFuture />
@@ -46,9 +46,23 @@ const Footer = () => {
                             >
                                 Stay Connected
                             </p>
-                            <p>124 Days Road, Ferryden Park SA 5010</p>
-                            <p>(08) 8406 0000</p>
-                            <p>info@zoosh.com.au</p>
+                            <p>
+                                <i class="fas fa-fw fa-lg fa-map-marker-alt"></i>
+                                &nbsp;&nbsp;&nbsp;
+                                <span>
+                                    124 Days Road, Ferryden Park SA 5010
+                                </span>
+                            </p>
+                            <p>
+                                <i class="fas fa-fw fa-lg fa-phone-alt"></i>
+                                &nbsp;&nbsp;&nbsp;
+                                <span>(08) 8406 0000</span>
+                            </p>
+                            <p>
+                                <i class="fas fa-fw fa-lg fa-envelope"></i>
+                                &nbsp;&nbsp;&nbsp;
+                                <span>info@zoosh.com.au</span>
+                            </p>
                         </div>
                     </div>
 

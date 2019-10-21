@@ -57,7 +57,7 @@ img {
 
 #productIcons svg {
     fill: var(--text-color);
-    opacity: 65%;
+    opacity: 0.65;
 }
 
 p {
@@ -105,6 +105,14 @@ p {
     padding: 15%;
 }
 
+.opening-logo-wrap {
+    background-color: #1e78c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15%;
+}
+
 .slide-wrap {
     overflow: hidden;
     display: flex;
@@ -118,6 +126,7 @@ p {
     grid-column-gap: 5rem;
     align-items: center;
     justify-content: center;
+    justify-items: center;
     padding: 2rem;
 }
 
@@ -145,13 +154,16 @@ p {
         grid-template-columns: repeat(2, 1fr);
     }
     .opening-text-wrap {
-        padding: 25%;
+        padding: 0 25%;
     }
     .slide-wrap {
         min-height: 100vh;
     }
+    .opening-logo-wrap {
+        padding: 0 15%;
+    }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1260px) {
     .footer-wrap {
         grid-template-rows: auto;
         grid-template-columns: repeat(4, auto);

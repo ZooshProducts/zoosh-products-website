@@ -5,15 +5,5 @@
  */
 
 module.exports = {
-    /* Your site config here */
-    plugins: [
-        {
-            resolve: "gatsby-plugin-react-svg",
-            options: {
-                rule: {
-                    exclude: /test/, // See below to configure properly
-                },
-            },
-        },
-    ],
+    plugins: [`gatsby-plugin-react-helmet`],
 }

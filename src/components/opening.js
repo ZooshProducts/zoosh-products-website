@@ -6,22 +6,14 @@ const Opening = () => {
     return (
         <div>
             <div className="opening-wrap">
-                <div
-                    style={{
-                        backgroundColor: "#1e78c2",
-                        display: "flex",
-                        flexDirection: "column",
-                        justifyContent: "center",
-                        alignItems: "center",
-                        padding: "15%",
-                    }}
-                >
+                <div className="opening-logo-wrap">
                     <img src="images/Zoosh logo.png" alt="" />
                 </div>
                 <div className="opening-text-wrap">
                     <div
                         style={{
                             marginBottom: "3rem",
+                            width: "100%",
                         }}
                     >
                         <ACleanerFuture />

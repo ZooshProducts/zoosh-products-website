@@ -12,13 +12,13 @@ const Banner = ({ products }) => {
 
     return (
         <div>
-            <div id="slide_01">
+            <div id="slide_01" className="slide">
                 <Slide
                     data={dishwashLiquids}
                     text={dishwashLiquidConcentrateText}
                 />
             </div>
-            <div id="slide_2">
+            <div id="slide_2" className="slide">
                 <Slide data={allPurposeCleaners} text={allPurposeCleanerText} />
             </div>
         </div>

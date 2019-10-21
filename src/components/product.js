@@ -30,8 +30,8 @@ const Product = ({ data }) => {
                 <h3>{data.category}</h3>
 
                 <div>
-                    {data.description.split("\\n").map(string => {
-                        return <p>{string}</p>
+                    {data.description.split("\\n").map((string, index) => {
+                        return <p key={`key_${index}`}>{string}</p>
                     })}
                 </div>
                 <div
@@ -40,8 +40,8 @@ const Product = ({ data }) => {
                     }}
                 >
                     <h4>HOW TO USE</h4>
-                    {data.how_to_use.split("\\n").map(string => {
-                        return <p>{string}</p>
+                    {data.how_to_use.split("\\n").map((string, index) => {
+                        return <p key={`key_${index}`}>{string}</p>
                     })}
                 </div>
                 <ProductIcons />
