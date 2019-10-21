@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import ReactFullpage from "@fullpage/react-fullpage"
 import { Helmet } from "react-helmet"
 
@@ -12,12 +12,17 @@ import "../styles/global.css" // global stylesheet
 import JSONData from "../data/products.json"
 
 const HomePage = () => {
+    const [overflow, setOverflow] = useState(true)
     return (
         <ReactFullpage
-            autoScrolling={`true`}
-            scrollHorizontally={`true`}
-            // normalScrollElements={`#products`}
-            scrollOverflow={`true`}
+            autoScrolling={true}
+            scrollOverflow={overflow}
+            scrollHorizontally={true}
+            touchSensitivity={20}
+            responsiveWidth={700}
+            afterResponsive={isResponsive => {
+                setOverflow(false)
+            }}
             render={comp => (
                 <ReactFullpage.Wrapper>
                     <div id="opening" className="section">
@@ -56,7 +61,10 @@ const HomePage = () => {
                             </p>
                         </div>
                     </div>
-                    <div id="banner" className="section">
+                    <div
+                        id="banner"
+                        className="section fp-auto-height-responsive"
+                    >
                         <Banner products={JSONData.products} />
                     </div>
                     <div id="products" className="section">
