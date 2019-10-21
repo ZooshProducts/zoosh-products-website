@@ -2,7 +2,7 @@
     "products": [
         {
             "image": {
-                "src": "Plastic-Bottle-Lemon-Myrtle-Mockup-compressor.png",
+                "src": "plastic-bottle-lemon-myrtle.png",
                 "alt": "Lemon Myrtle Dishwash Concentrate product image",
                 "color": "#fdae30"
             },
@@ -13,7 +13,7 @@
         },
         {
             "image": {
-                "src": "Plastic-Bottle-Kakadu-Plum-Mockup-compressor.png",
+                "src": "plastic-bottle-kakadu-plum.png",
                 "alt": "Kakadu Plum Dishwash Concentrate product image",
                 "color": "#288a3e"
             },
@@ -24,7 +24,7 @@
         },
         {
             "image": {
-                "src": "Spray-Plastic-Bottle-Finger-Lime-Mock-up-compressor.png",
+                "src": "spray-plastic-bottle-finger-lime.png",
                 "alt": "Finger Lime All Purpose Cleaner product image",
                 "color": "#c62724"
             },
@@ -35,7 +35,7 @@
         },
         {
             "image": {
-                "src": "Spray-Plastic-Bottle-Frangipani-Mock-up-compressor.png",
+                "src": "spray-plastic-bottle-frangipani.png",
                 "alt": "Frangipani All Purpose Cleaner product image",
                 "color": "#f3431c"
             },

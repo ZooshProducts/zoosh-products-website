@@ -48,7 +48,7 @@ const Slide = ({ data, text }) => {
                             }}
                         >
                             <img
-                                src={`images/products/compressed/${data.image.src}`}
+                                src={`./images/products/${data.image.src}`}
                                 alt=""
                                 style={{
                                     maxWidth: "40%",

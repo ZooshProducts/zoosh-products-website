@@ -14,7 +14,7 @@ const Product = ({ data }) => {
             >
                 <div
                     style={{
-                        backgroundImage: `url(images/products/compressed/${data.image.src})`,
+                        backgroundImage: `url(./images/products/${data.image.src})`,
                         backgroundSize: "contain",
                         backgroundPosition: "center",
                         backgroundRepeat: "no-repeat",
