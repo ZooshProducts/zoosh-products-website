@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useEffect } from "react"
 import ReactFullpage from "@fullpage/react-fullpage"
 import { Helmet } from "react-helmet"
 
@@ -12,17 +12,16 @@ import "../styles/global.css" // global stylesheet
 import JSONData from "../data/products.json"
 
 const HomePage = () => {
-    const [overflow, setOverflow] = useState(true)
+    const isMobile = () => {
+        return document.documentElement.clientWidth > 700 ? true : false
+    }
     return (
         <ReactFullpage
             autoScrolling={true}
-            scrollOverflow={overflow}
+            scrollOverflow={isMobile()}
             scrollHorizontally={true}
             touchSensitivity={20}
             responsiveWidth={700}
-            afterResponsive={isResponsive => {
-                setOverflow(false)
-            }}
             render={comp => (
                 <ReactFullpage.Wrapper>
                     <div id="opening" className="section">

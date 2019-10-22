@@ -136,6 +136,14 @@ p {
     grid-column-gap: 5rem;
 }
 
+@media screen and (max-width: 699px) {
+    .fp-section,
+    .fp-slide,
+    .fp-tableCell {
+        height: auto !important;
+    }
+}
+
 @media screen and (min-width: 700px) {
     html {
         font-size: 15px;
