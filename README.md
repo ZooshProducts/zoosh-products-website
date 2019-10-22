@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="">
-    <img alt="./static/images/Zoosh logo.png" src="" width="120" />
+    <img alt="Zoosh logo" src="./static/images/Zoosh logo.png" width="120" />
   </a>
 </p>
 <h1 align="center">
