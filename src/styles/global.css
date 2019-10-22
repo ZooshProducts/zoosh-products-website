@@ -144,12 +144,12 @@ p {
     margin: 0 auto;
     flex-wrap: wrap;
     padding-top: 4rem;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
-@supports (justify-content: space-evenly) {
+@supports (-ms-ime-align: auto) {
     .products-wrap {
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
 }
 
