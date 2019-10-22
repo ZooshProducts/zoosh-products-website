@@ -13,7 +13,12 @@ import JSONData from "../data/products.json"
 
 const HomePage = () => {
     const isMobile = () => {
-        return document.documentElement.clientWidth > 700 ? true : false
+        // if (typeof document !== "undefined") {
+        // }
+        return typeof document !== "undefined" &&
+            document.documentElement.clientWidth > 700
+            ? true
+            : false
     }
     return (
         <ReactFullpage

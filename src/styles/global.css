@@ -117,6 +117,7 @@ p {
     overflow: hidden;
     display: flex;
     position: relative;
+    min-height: 400px;
 }
 
 .footer-wrap {
