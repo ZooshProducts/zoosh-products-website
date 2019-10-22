@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React from "react"
 import ReactFullpage from "@fullpage/react-fullpage"
 import { Helmet } from "react-helmet"
 
@@ -13,8 +13,6 @@ import JSONData from "../data/products.json"
 
 const HomePage = () => {
     const isMobile = () => {
-        // if (typeof document !== "undefined") {
-        // }
         return typeof document !== "undefined" &&
             document.documentElement.clientWidth > 700
             ? true
@@ -72,16 +70,7 @@ const HomePage = () => {
                         <Banner products={JSONData.products} />
                     </div>
                     <div id="products" className="section">
-                        <div
-                            style={{
-                                display: "flex",
-                                maxWidth: "1400px",
-                                margin: "0 auto",
-                                flexWrap: "wrap",
-                                justifyContent: "space-evenly",
-                                paddingTop: "4rem",
-                            }}
-                        >
+                        <div className="products-wrap">
                             {JSONData.products.map((data, index) => {
                                 return (
                                     <Product key={`key_${index}`} data={data} />

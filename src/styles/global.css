@@ -58,6 +58,7 @@ img {
 #productIcons svg {
     fill: var(--text-color);
     opacity: 0.65;
+    max-width: 100%;
 }
 
 p {
@@ -135,6 +136,21 @@ p {
     display: grid;
     grid-template-rows: repeat(2, auto);
     grid-column-gap: 5rem;
+}
+
+.products-wrap {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+    justify-content: space-around;
+}
+
+@supports (justify-content: space-evenly) {
+    .products-wrap {
+        justify-content: space-evenly;
+    }
 }
 
 @media screen and (max-width: 699px) {
