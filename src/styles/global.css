@@ -147,6 +147,19 @@ p {
     justify-content: space-evenly;
 }
 
+#footer a,
+#footer a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#footer a:hover,
+#footer a:active,
+#footer a:focus,
+#footer a:focus-within {
+    text-decoration: underline;
+}
+
 @supports (-ms-ime-align: auto) {
     .products-wrap {
         justify-content: space-around;

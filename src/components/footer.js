@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import ACleanerFuture from "../components/svg-text/a-cleaner-future"
 
 const Footer = () => {
@@ -35,8 +36,12 @@ const Footer = () => {
                             >
                                 Useful Links
                             </p>
-                            <p>Business Disclaimer</p>
-                            <p>Privacy Policy</p>
+                            <p>
+                                <Link to="/privacy/">Business Disclaimer</Link>
+                            </p>
+                            <p>
+                                <Link to="/privacy/">Privacy Policy</Link>
+                            </p>
                         </div>
                         <div>
                             <p
@@ -56,12 +61,20 @@ const Footer = () => {
                             <p>
                                 <i class="fas fa-fw fa-lg fa-phone-alt"></i>
                                 &nbsp;&nbsp;&nbsp;
-                                <span>(08) 8406 0000</span>
+                                <span>
+                                    <a href="tel:(08) 8406 0000">
+                                        (08) 8406 0000
+                                    </a>
+                                </span>
                             </p>
                             <p>
                                 <i class="fas fa-fw fa-lg fa-envelope"></i>
                                 &nbsp;&nbsp;&nbsp;
-                                <span>info@zoosh.com.au</span>
+                                <span>
+                                    <a href="mailto:info@zoosh.com.au">
+                                        info@zoosh.com.au
+                                    </a>
+                                </span>
                             </p>
                         </div>
                     </div>
