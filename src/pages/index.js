@@ -54,7 +54,7 @@ const HomePage = () => {
                             </p>
                             <p>
                                 Zoosh is our contribution to a sustainable
-                                cleaner future. We design our products with the
+                                cleaner future. .We design our products with the
                                 planet in mind based on highly efficient
                                 renewable plant-based ingredients, whilst
                                 constantly striving to source the latest in
