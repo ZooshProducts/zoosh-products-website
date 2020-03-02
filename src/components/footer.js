@@ -52,14 +52,14 @@ const Footer = () => {
                                 Stay Connected
                             </p>
                             <p>
-                                <i class="fas fa-fw fa-lg fa-map-marker-alt"></i>
+                                <i className="fas fa-fw fa-lg fa-map-marker-alt"></i>
                                 &nbsp;&nbsp;&nbsp;
                                 <span>
                                     124 Days Road, Ferryden Park SA 5010
                                 </span>
                             </p>
                             <p>
-                                <i class="fas fa-fw fa-lg fa-phone-alt"></i>
+                                <i className="fas fa-fw fa-lg fa-phone-alt"></i>
                                 &nbsp;&nbsp;&nbsp;
                                 <span>
                                     <a href="tel:(08) 8406 0000">
@@ -68,7 +68,7 @@ const Footer = () => {
                                 </span>
                             </p>
                             <p>
-                                <i class="fas fa-fw fa-lg fa-envelope"></i>
+                                <i className="fas fa-fw fa-lg fa-envelope"></i>
                                 &nbsp;&nbsp;&nbsp;
                                 <span>
                                     <a href="mailto:info@zoosh.com.au">

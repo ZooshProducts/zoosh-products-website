@@ -3,6 +3,13 @@ import React from "react"
 import ProductIcons from "../components/product-icons"
 
 const Product = ({ data }) => {
+    // console.log(data)
+    const features = data.dotpoints.map((dotpoint, i) => (
+        <li key={i} style={{ listStyleType: "none" }}>
+            {dotpoint}
+        </li>
+    ))
+
     return (
         <div className="product-wrap">
             <div
@@ -34,15 +41,26 @@ const Product = ({ data }) => {
                         return <p key={`key_${index}`}>{string}</p>
                     })}
                 </div>
+                <div>
+                    <h4>HOW TO USE</h4>
+                    {data.how_to_use.split("\\n").map((string, index) => {
+                        return <p key={`key_${index}`}>{string}</p>
+                    })}
+                </div>
                 <div
                     style={{
                         marginBottom: "4rem",
                     }}
                 >
-                    <h4>HOW TO USE</h4>
-                    {data.how_to_use.split("\\n").map((string, index) => {
-                        return <p key={`key_${index}`}>{string}</p>
-                    })}
+                    <h4>FEATURES & BENEFITS</h4>
+                    <ul
+                        style={{
+                            paddingLeft: "0",
+                            marginBottom: "0",
+                        }}
+                    >
+                        {features}
+                    </ul>
                 </div>
                 <ProductIcons />
             </div>

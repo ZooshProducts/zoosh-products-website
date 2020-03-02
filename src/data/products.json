@@ -9,7 +9,21 @@
             "name": "Lemon Myrtle",
             "category": "Dishwash Liquid",
             "description": "A concentrated readily biodegradable plant based cleaner. Powers through grease yet gentle on your hands & the environment. \\n You only need a small squirt leaving dishes sparkling clean with a fresh Lemon Myrtle scent.",
-            "how_to_use": "Simply aim cap directly at sponge, dishes or sink before squeezing – close cap when not in use."
+            "how_to_use": "Simply aim cap directly at sponge, dishes or sink before squeezing – close cap when not in use.",
+            "dotpoints": [
+                "Environmentally Responsible",
+                "Highly Concentrated",
+                "Readily biodegradable detergents",
+                "Contains Plant based ingredients",
+                "Contains Australian Lemon Myrtle",
+                "Cuts through grease & oil",
+                "Gentle on hands – gentle on the environment",
+                "Grey Water & Septic Safe",
+                "No Animal Testing",
+                "Recyclable bottle",
+                "Australian Made",
+                "Designed with the Planet in mind"
+            ]
         },
         {
             "image": {
@@ -20,7 +34,22 @@
             "name": "Kakadu Plum",
             "category": "Dishwash Liquid",
             "description": "A concentrated readily biodegradable plant based cleaner. Powers through grease yet gentle on your hands & the environment. \\n You only need a small squirt leaving dishes sparkling clean with a fresh Kakadu Plum scent.",
-            "how_to_use": "Simply aim cap directly at sponge, dishes or sink before squeezing – close cap when not in use."
+            "how_to_use": "Simply aim cap directly at sponge, dishes or sink before squeezing – close cap when not in use.",
+            "dotpoints": [
+                "Environmentally Responsible",
+                "Highly Concentrated",
+                "Readily biodegradable detergents",
+                "Contains Plant based ingredients",
+                "Contains Australian Kakadu Plum",
+                "Cuts through grease & oil",
+                "Gentle on hands – gentle on the environment",
+                "Grey Water & Septic Safe",
+                "No Animal Testing",
+                "Ergonomically designed packaging",
+                "Recyclable bottle",
+                "Australian Made",
+                "Designed with the Planet in mind"
+            ]
         },
         {
             "image": {
@@ -31,7 +60,24 @@
             "name": "Finger Lime",
             "category": "All Purpose Cleaner",
             "description": "An eco friendly cleaner designed to clean all washable hard surfaces leaving behind a fresh Finger Lime scent.",
-            "how_to_use": "Simply spray onto surface to be cleaned then wipe away with a clean cloth. Spot test surface before using."
+            "how_to_use": "Simply spray onto surface to be cleaned then wipe away with a clean cloth. Spot test surface before using.",
+            "dotpoints": [
+                "Environmentally Responsible",
+                "Readily biodegradable detergents",
+                "Contains Plant based ingredients",
+                "Sugar cane derived bio-solvent ",
+                "Food safe colours",
+                "Contains Finger & Frangipani scents",
+                "Cuts through grease & grime ",
+                "Gentle on the environment",
+                "Safe to use on all hard surfaces",
+                "Grey Water & Septic Safe",
+                "No Animal Testing",
+                "Ergonomically designed packaging",
+                "Recyclable bottle",
+                "Australian Made",
+                "Designed with the Planet in mind"
+            ]
         },
         {
             "image": {
@@ -42,7 +88,24 @@
             "name": "Frangipani",
             "category": "All Purpose Cleaner",
             "description": "An eco friendly cleaner designed to clean all washable hard surfaces leaving behind a fresh Frangipani scent.",
-            "how_to_use": "Simply spray onto surface to be cleaned then wipe away with a clean cloth. Spot test surface before using."
+            "how_to_use": "Simply spray onto surface to be cleaned then wipe away with a clean cloth. Spot test surface before using.",
+            "dotpoints": [
+                "Environmentally Responsible",
+                "Readily biodegradable detergents",
+                "Contains Plant based ingredients",
+                "Sugar cane derived bio-solvent ",
+                "Food safe colours",
+                "Contains Frangipani scents",
+                "Cuts through grease & grime",
+                "Gentle on the environment",
+                "Safe to use on all hard surfaces",
+                "Grey Water & Septic Safe",
+                "No Animal Testing",
+                "Ergonomically designed packaging",
+                "Recyclable bottle",
+                "Australian Made",
+                "Designed with the Planet in mind"
+            ]
         }
     ]
 }
