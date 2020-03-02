@@ -19,7 +19,10 @@ const Slide = ({ data, text }) => {
                 >
                     <div
                         style={{
-                            width: "30%",
+                            width:
+                                data[0].category === "All Purpose Cleaner"
+                                    ? "27%"
+                                    : "33%",
                             marginBottom: "3rem",
                         }}
                     >
@@ -51,7 +54,10 @@ const Slide = ({ data, text }) => {
                                 src={`./images/products/${data.image.src}`}
                                 alt=""
                                 style={{
-                                    maxWidth: "40%",
+                                    maxWidth:
+                                        data.category === "All Purpose Cleaner"
+                                            ? "60%"
+                                            : "38%",
                                 }}
                             />
                         </div>
